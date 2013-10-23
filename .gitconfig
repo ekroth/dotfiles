@@ -1,0 +1,7 @@
+[user]
+	name = Andrée Ekroth
+	email = andree.ekroth@gmail.com
+[github]
+	user = ekroth
+[push]
+	default = simple
