@@ -34,7 +34,7 @@ export _JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=lcd -Dswing.defaultlaf=com.s
 #------------------------------
 # Alias stuff
 #------------------------------
-alias ls='ls --color=auto'
+alias ls='ls --color=auto -h'
 alias ntop='nethogs'
 alias top='htop'
 alias twat='mkdir wat && cd wat'
