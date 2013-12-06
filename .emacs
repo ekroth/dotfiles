@@ -15,6 +15,11 @@
 (if (fboundp 'tool-bar-mode) (tool-bar-mode -1))
 (if (fboundp 'menu-bar-mode) (menu-bar-mode -1))
 
+(add-hook 'java-mode-hook (lambda ()
+			    (setq c-basic-offset 4
+				  tab-width 4
+				  indent-tabs-mode nil)))
+
 ;; linux coding style
 (defun linux-c-mode ()
   "C mode with adjusted defaults for use with the Linux kernel."
